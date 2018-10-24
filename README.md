@@ -4,6 +4,7 @@
 Hi! I'm a big fan of Docker and I always wanted to know how it worked under the box. So the best way to understand is by practice, this is why I decided to create my own little linux container.
 You will see that we can create a simple isolated process with his own root filesystem and his own namespaces with only some lines of code :D 
 
+![demo]()
 
 # How it work ?
 I started by create a child process using clone() with new namespaces, next I changed the root directory by giving a new rootfs (e.g: '/home/rootfs' in my case) and changed the actual directory by the root directory (e.g: '/').
