@@ -1,0 +1,1 @@
+docker container run -ti --privileged my_container
