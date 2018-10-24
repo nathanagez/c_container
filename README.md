@@ -13,6 +13,7 @@ I started by create a child process using clone() with new namespaces, next I ch
 Because I work on macOS I use Docker to test my "container". Yes containerception.
 
 BEFORE ALL DOWNLOAD THE ROOT FILESYSTEM:
+
 `cd ./container && wget https://github.com/ericchiang/containers-from-scratch/releases/download/v0.1.0/rootfs.tar.gz`
 
 Just run `./build.sh` and continue with `./run.sh`
