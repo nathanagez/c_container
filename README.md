@@ -1,6 +1,7 @@
 # What is it ?
 
 ![docker_logo](https://avatars0.githubusercontent.com/u/5429470?s=200&v=4)
+
 Hi! I'm a big fan of Docker and I always wanted to know how it worked under the box. So the best way to understand is by practice, this is why I decided to create my own little linux container.
 You will see that we can create a simple isolated process with his own root filesystem and his own namespaces with only some lines of code :D 
 
@@ -13,6 +14,7 @@ I started by create a child process using clone() with new namespaces, next I ch
 Because I work on macOS I use Docker to test my "container". Yes containerception.
 
 BEFORE ALL DOWNLOAD THE ROOT FILESYSTEM:
+
 `cd ./container && wget https://github.com/ericchiang/containers-from-scratch/releases/download/v0.1.0/rootfs.tar.gz`
 
 Just run `./build.sh` and continue with `./run.sh`
